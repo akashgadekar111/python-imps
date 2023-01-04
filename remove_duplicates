@@ -1,0 +1,12 @@
+#using set
+l1 = [1,1,2,3,4,3,2,1]
+res = list(set(l1))
+print(res)
+
+#using for loop
+res2 = []
+for i in l1:
+    if i not in res2:
+        res2.append(i)
+print(res2)
+

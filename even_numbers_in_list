@@ -1,5 +1,0 @@
-list1 = [1,3,43,66,321,4]   # Initialise a list
-
-for i in list1:             # apply a loop to the list
-    if i % 2 == 0:          # check for divisiblity by 2
-        print(je_ele)       # if divisible by 2 then print

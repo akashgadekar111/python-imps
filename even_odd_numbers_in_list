@@ -1,11 +1,15 @@
 list1 = [1,3,43,66,321,4]
-
+emp = []
 #even numbers
 for i in list1:
     if i % 2 == 0:
-        print(je_ele)
+        emp.append()
+print(emp)
+#op: [66,4]
 
 #odd numbers
 for i in list1:
     if i % 2 == 0:
-        print(je_ele)
+        emp.append(i)
+print(emp)
+op: [1,3,43,321]

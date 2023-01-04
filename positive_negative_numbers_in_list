@@ -1,0 +1,17 @@
+list1 = [11, -21, 0, 45, 66, -93]
+posit = []
+negat = []
+
+#positive numbers from list
+for num in list1:
+    if num >= 0:
+        posit.append(num)
+print(posit)
+
+op: [11, 0, 45, 66]
+
+#negative numbers from list
+for num in list1:
+    if num < 0:
+        negat.append(num)
+print(negat)
